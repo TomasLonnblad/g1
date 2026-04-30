@@ -7,7 +7,7 @@ const FRAME_COUNT = 260
 const IMAGE_PATH = "/frames/"
 
 function getFramePath(index: number): string {
-  const paddedIndex = index.toString().padStart(3, "0")
+  const paddedIndex = index.toString().padStart(5, "0")
   return `${IMAGE_PATH}${paddedIndex}.jpg`
 }
 
